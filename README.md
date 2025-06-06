@@ -3,6 +3,8 @@
 ## Overview
 An AI-powered trip planning system that creates optimized multi-city itineraries by solving a complex constraint satisfaction problem using a novel two-layer approach. The system transforms raw travel data into executable daily schedules while balancing user preferences, costs, and real-world constraints.
 
+Video for introduction:https://youtu.be/RWqt4tvkDA0
+
 ### System Flow
 ```mermaid
 flowchart TD
