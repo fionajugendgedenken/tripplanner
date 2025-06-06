@@ -1,0 +1,277 @@
+🌟 ENHANCED TRIP PLANNER - COMPLETE SYSTEM
+================================================================================
+📅 Trip Period: 2025-06-14 to 2025-06-22
+🎯 User Preferences:
+   POI Desirability: 1
+   Cost Sensitivity: 0.01
+   Transportation Averseness: 0.2
+================================================================================
+📁 Output will be saved to:
+   Log file: trip_planner_output\trip_planner_log_20250606_013025.txt
+   Results file: trip_planner_output\trip_plans_20250606_013025.txt
+================================================================================
+
+🚀 1. INITIALIZING TRIP PLANNER...
+Enhanced Trip Planner initialized for 2025-06-14 to 2025-06-22
+Objective weights: POI=1, Cost=0.01, Transport=0.2
+
+📊 2. LOADING DATA...
+Loading and processing all data files...
+1. Loading POI list...
+   Loaded 109 POIs across 5 cities
+2. Processing detailed POI data...
+Loading and processing POI data...
+  Processed 110 POIs across 5 locations:
+    Athens, Greece: 34 total (R:8, H:7, T:3, P:31)
+    Crete, Greece: 17 total (R:0, H:1, T:6, P:11)
+    Santorini, Greece: 19 total (R:1, H:6, T:3, P:16)
+    Milos, Greece: 21 total (R:4, H:5, T:2, P:19)
+    Zakynthos, Greece: 19 total (R:1, H:5, T:2, P:17)
+3. Loading and filtering transportation...
+Loading and filtering transportation data...
+  Processing flights...
+  Processing ferries...
+  Organized 530 transportation options
+  Available dates: 9
+    2025-06-14: 5 origins
+      Athens, Greece: 4 destinations, 13 total options
+      Crete, Greece: 4 destinations, 12 total options
+    2025-06-15: 5 origins
+      Athens, Greece: 4 destinations, 12 total options
+      Crete, Greece: 4 destinations, 10 total options
+    2025-06-16: 5 origins
+      Athens, Greece: 4 destinations, 11 total options
+      Crete, Greece: 3 destinations, 10 total options
+4. Processing POI routes...
+Loading and processing POI routes...
+  Selected 2424 preferred routes from 2424 pairs
+5. Organizing routes by location...
+Organizing routes by location...
+  Organized 2038 intra-city routes across 5 locations
+  Skipped 386 inter-city routes
+    Athens, Greece: 930 routes from 31 origins
+    Zakynthos, Greece: 342 routes from 19 origins
+    Santorini, Greece: 272 routes from 17 origins
+    Crete, Greece: 152 routes from 14 origins
+    Milos, Greece: 342 routes from 19 origins
+Data loading completed in 0.08 seconds
+Statistics: {'loading_time_seconds': 0.07598185539245605, 'poi_count': 109, 'cities_count': 5, 'detailed_poi_locations': 5, 'transportation_dates': 9, 'total_transportation_options': 530, 'route_locations': 5, 'total_routes': 2038}
+   ✅ Data loaded in 0.08s
+   📊 Statistics:
+      POIs: 109
+      Cities: 5
+      Transportation options: 530
+      Routes: 2038
+
+⚙️  3. INITIALIZING OPTIMIZERS...
+Initializing optimizer components...
+Initialized IntracitySubproblemSolver with routes for 5 locations
+Initialized HotelSelector with routes for 5 locations
+InterCityOptimizer initialized for 9 days
+Cities: ['Athens, Greece', 'Crete, Greece', 'Santorini, Greece', 'Milos, Greece', 'Zakynthos, Greece']
+Transportation hubs identified: 0
+Initialized IntracitySubproblemSolver with routes for 5 locations
+Initialized HotelSelector with routes for 5 locations
+Optimizer components initialized successfully
+   ✅ Optimizers initialized in 0.00s
+
+🎯 4. PLANNING MULTIPLE TRIP ALTERNATIVES...
+Starting multi-trip planning with beam width 10...
+🚀 Starting inter-city optimization...
+📅 Trip dates: ['2025-06-14', '2025-06-15', '2025-06-16', '2025-06-17', '2025-06-18', '2025-06-19', '2025-06-20', '2025-06-21', '2025-06-22']
+🏙️  Available cities: ['Athens, Greece', 'Crete, Greece', 'Santorini, Greece', 'Milos, Greece', 'Zakynthos, Greece']
+⚙️  Beam width: 10, Return top: 5
+🏨 Selecting initial hotel in Athens...
+               🏨 Hotel selection for Athens, Greece:
+                  Already visited in Athens, Greece: set()
+                  Current hotel: None
+                  Date: 2025-06-14
+        ❌ [HotelSelector] estimated_cost is not a list: <class 'NoneType'>
+      ❌ [HotelSelector] Amanzoe - No cost info for 2025-06-14
+                  ✅ Selected: Grand Hyatt Athens
+🏨 Selected initial hotel: Grand Hyatt Athens
+✅ Added Grand Hyatt Athens to visited hotels for Athens
+📅 Creating first day schedule from ATH Airport...
+   🔍 [DEBUG] _create_first_day_from_airport called
+      State: InterCityState(current_day=0, current_city='Athens, Greece', current_hotel='Grand Hyatt Athens', visited_cities={'Athens, Greece'}, visited_pois_by_city={}, visited_hotels_by_city={'Athens, Greece': {'Grand Hyatt Athens'}}, total_objective_score=0.0, total_cost=0.0, daily_schedule=[])
+      Hotel: Grand Hyatt Athens
+      Hotel info type: <class 'dict'>
+      Hotel info keys: ['name', 'city', 'date', 'info']
+      ✅ Arrival time set: 2025-06-14 12:00:00
+      ✅ Hotel info validated
+      🔍 Calculating travel time from Athens Airport to Grand Hyatt Athens
+      ✅ Airport to hotel time: 45 minutes
+      ✅ Tourism window: 13:15 - 22:00
+      🔍 Calling subproblem_solver.solve_subproblem...
+    🔍 [SubproblemSolver] Starting solve_subproblem
+    📍 City: Athens, Greece
+    🏨 Start POI: Grand Hyatt Athens
+    🎯 End POI: Grand Hyatt Athens
+    🕐 Time: 13:15 - 22:00
+    📅 Date: 2025-06-14
+    🎯 Beam width: 5
+    🚫 Global visited POIs: 0
+    ⏱️  Duration: 8.8 hours
+    🍽️  Restaurant required: True
+      🔍 [SubproblemSolver] Getting POIs for Athens, Greece
+      🚫 [SubproblemSolver] Global visited POIs: set()
+      📊 [SubproblemSolver] Found 34 POIs in Athens, Greece
+      📊 [SubproblemSolver] Summary: 34 processed, 0 visited, 3 transport, 31 available
+    📊 [SubproblemSolver] Found 31 available POIs
+    🚀 [SubproblemSolver] Starting beam search with initial score: 0.0
+    🏆 [SubproblemSolver] Beam search completed
+    📊 Final objective score: 108.34
+    🏛️  POIs visited: 6
+    🍽️  Restaurants: 1
+    ✅ Feasible: True
+    📍 Path details:
+        1. 13:23-14:53: Ancient Agora
+           ⏱️  Duration: 90min, ⭐ Pref: 50, 💰 Cost: $30.81
+           🚌 Travel: driving
+        2. 15:10-17:25: Acropolis of Athens
+           ⏱️  Duration: 135min, ⭐ Pref: 50, 💰 Cost: $34.07
+           🚌 Travel: walking
+        3. 17:35-19:20: Acropolis Museum
+           ⏱️  Duration: 105min, ⭐ Pref: 4, 💰 Cost: $22.72
+           🚌 Travel: walking
+        4. 19:32-20:47: Lycabettus Hill Viewing Area
+           ⏱️  Duration: 75min, ⭐ Pref: 5, 💰 Cost: $12.40
+           🚌 Travel: driving
+        5. 21:02-21:32: Opos Palia
+           ⏱️  Duration: 30min, ⭐ Pref: 1, 💰 Cost: $34.40
+           🚌 Travel: driving
+        6. 21:40-21:40: Grand Hyatt Athens
+           ⏱️  Duration: 0min, ⭐ Pref: 0, 💰 Cost: $8.10
+           🚌 Travel: driving
+    💰 Total costs: $142.50
+    🚌 Total travel time: 70.2 min
+      ✅ Subproblem solved successfully
+         Objective score: 108.34100000000001
+         Feasible: True
+      🔍 Calculating hotel score and cost...
+      ✅ Hotel calculation: score=50.0, cost=335.0
+      🔍 Calculating airport transfer cost...
+      ✅ Airport transfer cost: $22.5
+   First day costs: Hotel=$335.00, Airport transfer=$22.50
+✅ First day schedule created:
+   Score: 158.34
+   Cost: $357.50
+   Visited POIs: 6
+✅ Added Grand Hyatt Athens to visited POIs for Athens
+📊 Initial state prepared:
+   Current day: 1
+   Current city: Athens, Greece
+   Current hotel: Grand Hyatt Athens
+   Objective score: 158.34
+   Total cost: $357.50
+🔍 Starting beam search...
+🔍 Enhanced beam search starting with 1 initial states
+   Initial score: 158.34
+   Days to process: 9
+
+📅 Day 2/9: Processing beam of 1 states...
+   ✅ State 1: day=1, city=Athens, Greece, score=158.34
+   📊 Extracted 1 states, 1 match current day
+   🔄 Processing state 1/1: Athens, Greece -> ?
+         🏁 Pipeline Step 1: Current state
+            Start city: Athens, Greece
+            Start hotel: Grand Hyatt Athens
+            Date: 2025-06-15
+            Visited cities: {'Athens, Greece'}
+            🎯 Analyzing destination constraints:
+               Current city: Athens, Greece
+               Day: 2/9
+               Visited cities: {'Athens, Greece'}
+               🌍 Middle days: Using AC-3 constraint propagation
+               🕐 Days until second-to-last day: 6
+               ✅ Added Athens, Greece (stay option)
+               ⏭️  Skipped Athens, Greece (current city, already added as stay)
+               ✅ Added Crete, Greece (unvisited)
+               ✅ Added Santorini, Greece (unvisited)
+               ✅ Added Milos, Greece (unvisited)
+               ✅ Added Zakynthos, Greece (unvisited)
+               📋 Final destination choices: ['Athens, Greece', 'Crete, Greece', 'Santorini, Greece', 'Milos, Greece', 'Zakynthos, Greece']
+               🚀 AC-3 constraint propagation: Eliminated 1 infeasible destinations
+         🗺️  Pipeline Step 2: Destination choices
+            Available destinations: ['Athens, Greece', 'Crete, Greece', 'Santorini, Greece', 'Milos, Greece', 'Zakynthos, Greece']
+         🏙️  Pipeline Step 3: Processing destination 1/5: Athens, Greece
+               🏨 Hotel selection for Athens, Greece:
+                  Already visited in Athens, Greece: {'Grand Hyatt Athens'}
+                  Current hotel: Grand Hyatt Athens
+                  Date: 2025-06-15
+        ❌ [HotelSelector] estimated_cost is not a list: <class 'NoneType'>
+      ❌ [HotelSelector] Amanzoe - No cost info for 2025-06-15
+                  ✅ Selected: Grand Hyatt Athens
+            🏨 Best hotel in Athens, Greece: Grand Hyatt Athens
+            🏠 Staying in same city: Athens, Greece
+               🏠 Generating stay successor:
+                  City: Athens, Greece
+                  Start hotel: Grand Hyatt Athens
+                  End hotel: Grand Hyatt Athens
+                  Date: 2025-06-15
+                  Time window: 09:00 - 22:00
+    🔍 [SubproblemSolver] Starting solve_subproblem
+    📍 City: Athens, Greece
+    🏨 Start POI: Grand Hyatt Athens
+    🎯 End POI: Grand Hyatt Athens
+    🕐 Time: 09:00 - 22:00
+    📅 Date: 2025-06-15
+    🎯 Beam width: 5
+    🚫 Global visited POIs: 6
+    ⏱️  Duration: 13.0 hours
+    🍽️  Restaurant required: True
+      🔍 [SubproblemSolver] Getting POIs for Athens, Greece
+      🚫 [SubproblemSolver] Global visited POIs: {'Ancient Agora', 'Grand Hyatt Athens', 'Opos Palia', 'Lycabettus Hill Viewing Area', 'Acropolis Museum', 'Acropolis of Athens'}
+      📊 [SubproblemSolver] Found 34 POIs in Athens, Greece
+      📊 [SubproblemSolver] Summary: 34 processed, 6 visited, 3 transport, 25 available
+    📊 [SubproblemSolver] Found 25 available POIs
+    🚀 [SubproblemSolver] Starting beam search with initial score: 0.0
+    🏆 [SubproblemSolver] Beam search completed
+    📊 Final objective score: 57.89
+    🏛️  POIs visited: 8
+    🍽️  Restaurants: 3
+    ✅ Feasible: True
+    📍 Path details:
+        1. 09:04-09:26: Arch of Hadrian
+           ⏱️  Duration: 22min, ⭐ Pref: 1, 💰 Cost: $4.00
+           🚌 Travel: driving
+        2. 09:37-10:37: Metropolis Roof Garden
+           ⏱️  Duration: 60min, ⭐ Pref: 3, 💰 Cost: $0.00
+           🚌 Travel: walking
+        3. 10:55-12:55: Dionysos Zonar's
+           ⏱️  Duration: 120min, ⭐ Pref: 3, 💰 Cost: $80.00
+           🚌 Travel: walking
+        4. 13:09-14:54: Archaeological Museum
+           ⏱️  Duration: 105min, ⭐ Pref: 2, 💰 Cost: $27.33
+           🚌 Travel: driving
+        5. 15:03-17:03: Orizones
+           ⏱️  Duration: 120min, ⭐ Pref: 2, 💰 Cost: $88.60
+           🚌 Travel: driving
+        6. 17:13-18:28: Athens National Garden
+           ⏱️  Duration: 75min, ⭐ Pref: 1, 💰 Cost: $10.60
+           🚌 Travel: driving
+        7. 18:41-21:41: Delta Restaurant
+           ⏱️  Duration: 180min, ⭐ Pref: 50, 💰 Cost: $162.50
+           🚌 Travel: driving
+        8. 21:49-21:49: Grand Hyatt Athens
+           ⏱️  Duration: 0min, ⭐ Pref: 0, 💰 Cost: $8.30
+           🚌 Travel: driving
+    💰 Total costs: $381.33
+    🚌 Total travel time: 87.6 min
+                  Subproblem score: 57.89
+                  Subproblem feasible: True
+                  Hotel score: 50.00, cost: $326.00
+                  Total day score: 104.63
+                  ✅ Stay successor created: new day=2, score=262.98
+            ✅ Generated stay successor: score=262.98
+         🏙️  Pipeline Step 3: Processing destination 2/5: Crete, Greece
+               🏨 Hotel selection for Crete, Greece:
+                  Already visited in Crete, Greece: set()
+                  Current hotel: None
+                  Date: 2025-06-15
+                  ✅ Selected: Acro Wellness Suites
+            🏨 Best hotel in Crete, Greece: Acro Wellness Suites
+            ✈️  Traveling from Athens, Greece to Crete, Greece
+
+❌ ERROR: Trip planning failed!
+Error details: 'InterCityOptimizer' object has no attribute 'current_hotel'

@@ -1,0 +1,255 @@
+ENHANCED TRIP PLANNER - RESULTS
+================================================================================
+Generated: 2025-06-06 01:31:48
+Trip Period: 2025-06-14 to 2025-06-22
+Total Plans Generated: 5
+================================================================================
+
+TRIP PLAN #1
+----------------------------------------
+Objective Score: 702.61
+Total Cost: $4470.25
+Cities: Athens, Greece, Zakynthos, Greece, Crete, Greece, Santorini, Greece
+POIs Visited: 37
+Hotels Used: 4
+Duration: 9 days
+
+Daily Schedule:
+  Day 0: 2025-06-14 - Unknown activity
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 4.0)
+    Unknown: Unknown (⭐ 5.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 1: 2025-06-15 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown
+  Day 2: 2025-06-16 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 3: 2025-06-17 - Unknown activity
+  Day 4: 2025-06-18 - Unknown activity
+  Day 5: 2025-06-19 - Unknown activity
+  Day 6: 2025-06-20 - Unknown activity
+  Day 7: 2025-06-21 - Unknown activity
+  Day 8: 2025-06-22 - Unknown activity
+
+================================================================================
+
+TRIP PLAN #2
+----------------------------------------
+Objective Score: 699.48
+Total Cost: $4783.57
+Cities: Athens, Greece, Zakynthos, Greece, Crete, Greece, Santorini, Greece
+POIs Visited: 37
+Hotels Used: 4
+Duration: 9 days
+
+Daily Schedule:
+  Day 0: 2025-06-14 - Unknown activity
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 4.0)
+    Unknown: Unknown (⭐ 5.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 1: 2025-06-15 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown
+  Day 2: 2025-06-16 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 3: 2025-06-17 - Unknown activity
+  Day 4: 2025-06-18 - Unknown activity
+  Day 5: 2025-06-19 - Unknown activity
+  Day 6: 2025-06-20 - Unknown activity
+  Day 7: 2025-06-21 - Unknown activity
+  Day 8: 2025-06-22 - Unknown activity
+
+================================================================================
+
+TRIP PLAN #3
+----------------------------------------
+Objective Score: 663.65
+Total Cost: $4693.97
+Cities: Athens, Greece, Zakynthos, Greece, Crete, Greece, Santorini, Greece
+POIs Visited: 40
+Hotels Used: 4
+Duration: 9 days
+
+Daily Schedule:
+  Day 0: 2025-06-14 - Unknown activity
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 4.0)
+    Unknown: Unknown (⭐ 5.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 1: 2025-06-15 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown
+  Day 2: 2025-06-16 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 3: 2025-06-17 - Unknown activity
+  Day 4: 2025-06-18 - Unknown activity
+  Day 5: 2025-06-19 - Unknown activity
+  Day 6: 2025-06-20 - Unknown activity
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 7: 2025-06-21 - Unknown activity
+  Day 8: 2025-06-22 - Unknown activity
+
+================================================================================
+
+TRIP PLAN #4
+----------------------------------------
+Objective Score: 653.70
+Total Cost: $4500.41
+Cities: Athens, Greece, Zakynthos, Greece, Crete, Greece, Santorini, Greece
+POIs Visited: 35
+Hotels Used: 4
+Duration: 9 days
+
+Daily Schedule:
+  Day 0: 2025-06-14 - Unknown activity
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 4.0)
+    Unknown: Unknown (⭐ 5.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 1: 2025-06-15 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown
+  Day 2: 2025-06-16 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 3: 2025-06-17 - Unknown activity
+  Day 4: 2025-06-18 - Unknown activity
+  Day 5: 2025-06-19 - Unknown activity
+  Day 6: 2025-06-20 - Unknown activity
+  Day 7: 2025-06-21 - Unknown activity
+  Day 8: 2025-06-22 - Unknown activity
+
+================================================================================
+
+TRIP PLAN #5
+----------------------------------------
+Objective Score: 628.94
+Total Cost: $5229.13
+Cities: Athens, Greece, Crete, Greece, Milos, Greece, Zakynthos, Greece, Santorini, Greece
+POIs Visited: 50
+Hotels Used: 5
+Duration: 9 days
+
+Daily Schedule:
+  Day 0: 2025-06-14 - Unknown activity
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 4.0)
+    Unknown: Unknown (⭐ 5.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 1: 2025-06-15 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown
+  Day 2: 2025-06-16 - Unknown activity
+  Day 3: 2025-06-17 - Unknown activity
+  Day 4: 2025-06-18 - Unknown activity
+  Day 5: 2025-06-19 - Unknown activity
+  Day 6: 2025-06-20 - Unknown activity
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 50.0)
+    Unknown: Unknown (⭐ 3.0)
+    Unknown: Unknown (⭐ 2.0)
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+  Day 7: 2025-06-21 - Unknown activity
+  Day 8: 2025-06-22 - Unknown activity
+    Unknown: Unknown (⭐ 1.0)
+    Unknown: Unknown
+
+================================================================================
+
